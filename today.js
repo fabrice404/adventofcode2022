@@ -16,3 +16,5 @@ const inputPath = `${folderPath}/input.txt`;
 if (!fs.existsSync(inputPath)) {
   fs.writeFileSync(inputPath, "\n");
 }
+
+console.log(folderName);

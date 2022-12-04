@@ -1,0 +1,19 @@
+{
+  "name": "adventofcode2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "today.js",
+  "scripts": {
+    "start": "nodemon -e js,txt $(node today.js)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabrice404/adventofcode2022.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabrice404/adventofcode2022/issues"
+  },
+  "homepage": "https://github.com/fabrice404/adventofcode2022#readme"
+}
