@@ -9,7 +9,7 @@ if (!fs.existsSync(folderPath)) {
 
 const jsPath = `${folderPath}/index.js`;
 if (!fs.existsSync(jsPath)) {
-  fs.writeFileSync(jsPath, "const fs = require('fs');\nconst input = fs.readFileSync(`${__dirname}/input.txt`, 'utf-8');\nconst lines = input.trim().split(\/\\n\/gi);\n\n");
+  fs.writeFileSync(jsPath, "const fs = require('fs');\nconst input = fs.readFileSync(`${__dirname}/input.txt`, 'utf-8');\nconst lines = input.trimEnd().split(\/\\n\/gi);\n\n");
 }
 
 const inputPath = `${folderPath}/input.txt`;
