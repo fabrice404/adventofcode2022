@@ -1,0 +1,36 @@
+############
+[ [ '52-20' ] ]
+{ current: { x: 52, y: 20, key: '52-20', value: 27, letter: 'E' } }
+{
+  newPoint: { x: 51, y: 20, key: '51-20', value: 24, letter: 'x' },
+  sourcePoint: { x: 52, y: 20, key: '52-20', value: 27, letter: 'E' },
+  valid: false,
+  included: false,
+  points: '52-20'
+}
+{
+  newPoint: { x: 52, y: 19, key: '52-19', value: 24, letter: 'x' },
+  sourcePoint: { x: 52, y: 20, key: '52-20', value: 27, letter: 'E' },
+  valid: false,
+  included: false,
+  points: '52-20'
+}
+{
+  newPoint: { x: 53, y: 20, key: '53-20', value: 26, letter: 'z' },
+  sourcePoint: { x: 52, y: 20, key: '52-20', value: 27, letter: 'E' },
+  valid: true,
+  included: false,
+  points: '52-20'
+}
+{
+  newPoint: { x: 52, y: 21, key: '52-21', value: 24, letter: 'x' },
+  sourcePoint: { x: 52, y: 20, key: '52-20', value: 27, letter: 'E' },
+  valid: false,
+  included: false,
+  points: '52-20'
+}
+{ result: [ '53-20' ] }
+--------------
+2 1
+############
+[ '53-20' ]
